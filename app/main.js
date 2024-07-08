@@ -1,5 +1,5 @@
 
-var api_Key="RGAPI-77e68428-c4c4-4479-b4b3-a119f7c476ef";
+var api_Key="";
 var url="";
 var userName="";
 var tagline="";
