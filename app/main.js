@@ -63,7 +63,8 @@ function makeRequest(userName, tagline) {
     console.log(`statusCode: ${res.statusCode}`);
 
     res.on("data", (d) => {
-      process.stdout.write(d);
+      d = JSON.parse(d);
+      console.log(d);
     });
     res.on("error", (error) => {
       console.error(error);
